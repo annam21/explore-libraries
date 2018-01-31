@@ -63,3 +63,7 @@
   #' ---
   # Multiple outputs: github_document; word_document
   # OH MY GOD. You can't have spaces at the beginnings of lines in yaml 
+  
+  #' In Rmarkdown: use #' to write in prose. This prints as part of the document
+  #' instead of inside the code as a comment. 
+  
