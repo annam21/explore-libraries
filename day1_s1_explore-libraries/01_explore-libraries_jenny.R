@@ -1,8 +1,9 @@
 #' ---
-#' output: github_document; word_document
+#' output: github_document
 #' ---
 
 # You can put this yaml in R code!
+# Multiple outputs: github_document; word_document
 
 ## how jenny might do this in a first exploration
 ## purposely leaving a few things to change later!
@@ -67,3 +68,6 @@ ipt2 %>%
   mutate(github = grepl("github", URL)) %>%
   count(github) %>%
   mutate(prop = n / sum(n))
+
+# When rendering, add session info at bottom!
+sessionInfo()
