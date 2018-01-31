@@ -1,5 +1,5 @@
 #' ---
-#' output: github_document
+#' output: github_document; word_document
 #' ---
 
 # You can put this yaml in R code!
