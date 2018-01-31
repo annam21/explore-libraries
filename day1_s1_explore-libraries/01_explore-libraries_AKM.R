@@ -1,12 +1,15 @@
-  #' ---
-  #' output: github_document
-  #' ---
-  
+#' ---
+#' output: github_document
+#' ---
+  #OH MY GOD. You can't have spaces at the beginnings of lines in yaml 
+
   library(tidyverse)
 
 #' Which libraries does R search for packages?
   .Library
   .libPaths()
+  
+  # This is a change, to see if github_document works 
   
   #' Installed packages
   # Macintosh HD/Library/Frameworks/R.framework/Versions/3.4/Resources/library/rjags

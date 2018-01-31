@@ -56,3 +56,10 @@
   #' Feel free to use a Git Client to start
   #'
 
+  # Rendering reports
+  # You can put yaml in R code!
+  #' ---
+  #' output: github_document
+  #' ---
+  # Multiple outputs: github_document; word_document
+  # OH MY GOD. You can't have spaces at the beginnings of lines in yaml 
